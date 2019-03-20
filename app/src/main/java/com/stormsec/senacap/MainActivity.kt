@@ -89,12 +89,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
             R.id.nav_rescue -> {
-              fragment = RescueFragment()
-              title ="Resgatar Títulos"
-              val fragmentTransaction : FragmentTransaction = supportFragmentManager.beginTransaction()
-              fragmentTransaction.replace(R.id.fragment_container, fragment)
-              fragmentTransaction.commit()
-
+                Toast.makeText(this,"NÃO DISPONÍVEL", Toast.LENGTH_LONG).show()
             }
             R.id.nav_config -> {
                 Toast.makeText(this,"NÃO DISPONÍVEL", Toast.LENGTH_LONG).show()

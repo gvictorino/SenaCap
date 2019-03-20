@@ -4,8 +4,8 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Nome Sobrenome</string>
+    <string name="nav_header_subtitle">fulano@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="start">Início</string>
@@ -32,4 +32,5 @@
     <string name="cardNumber">NÚMERO DO CARTÃO</string>
     <string name="date">DATA DE VALIDADE (MM/AA)</string>
     <string name="cvv">CÓDIGO DE SEGURANCA (CVV)</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
 </resources>

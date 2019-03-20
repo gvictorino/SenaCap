@@ -20,5 +20,10 @@ class Navigation {
             val intent = Intent(activity, LoginActivity::class.java)
             startActivity(activity,intent)
         }
+
+        fun goToTitle(activity: Activity){
+            val intent = Intent(activity, RescueFragment::class.java)
+            startActivity(activity,intent)
+        }
     }
 }
