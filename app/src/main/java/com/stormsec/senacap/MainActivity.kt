@@ -10,6 +10,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -96,12 +97,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
             R.id.nav_config -> {
-              fragment = ConfigFragment()
-              title = "Configuracoes"
-              val fragmentTransaction : FragmentTransaction = supportFragmentManager.beginTransaction()
-              fragmentTransaction.replace(R.id.fragment_container, fragment)
-              fragmentTransaction.commit()
-
+                Toast.makeText(this,"NÃO DISPONÍVEL", Toast.LENGTH_LONG).show()
             }
             R.id.nav_logout -> {
               finish()

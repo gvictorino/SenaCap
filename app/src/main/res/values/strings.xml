@@ -27,4 +27,9 @@
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="buyNow">Compre já!</string>
+    <string name="info_credit_card">Informe os dados do seu cartão de crédito:</string>
+    <string name="nome">NOME</string>
+    <string name="cardNumber">NÚMERO DO CARTÃO</string>
+    <string name="date">DATA DE VALIDADE (MM/AA)</string>
+    <string name="cvv">CÓDIGO DE SEGURANCA (CVV)</string>
 </resources>

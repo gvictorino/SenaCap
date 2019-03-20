@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             android:layout_width="match_parent"
-                                             android:layout_height="match_parent">
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buy"/>
+
+        <TextView
+                android:id="@+id/info"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/info_credit_card"/>
+        <EditText
+                android:layout_margin="10dp"
+                android:hint="@string/nome"
+                android:padding="8dp"
+                android:background="@drawable/background_edit"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:layout_height="match_parent"
+        />
+        <EditText
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:hint="@string/cardNumber"
+                android:maxLines="1"
+                android:background="@drawable/background_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <EditText
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:hint="@string/date"
+                android:maxLines="1"
+                android:background="@drawable/background_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        <EditText
+                android:layout_margin="10dp"
+                android:hint="@string/cvv"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:background="@drawable/background_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        />
+
+        <Button android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="COMPRAR"
+                android:elevation="8dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/background_login"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</ScrollView>
